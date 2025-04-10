@@ -47,10 +47,15 @@ The script uses the `folium` library to create an interactive map, adding a mark
 All user queries are logged into `location_queries.log` for later reference, making it easy to track past searches.
 
 ---
+Interactive Map Visualization:
+Using the folium library, an interactive map with a marker is generated and saved as an HTML file. The map is opened automatically in the browser for easy visualization.
+
+Search Logging:
+All user queries are logged into a location_queries.log file for tracking previous searches and troubleshooting.
 
 ## 🧰 Requirements
 
-Install dependencies with:
+To run the script, install the required dependencies using pip:
 
 ```bash
 pip install geopy folium
@@ -67,5 +72,5 @@ Enter a search radius in meters (default is 1000m): 1000
 🔗 Google Maps link: https://www.google.com/maps?q=35.6828387,139.7594549
 📍 A map has been saved as location_map.html
 
-Made with ❤️ by Solstyce
+
 
